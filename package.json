@@ -13,7 +13,7 @@
   "lint-staged": {
     "**/*.js": [
       "npm run minify",
-      "git add ."
+      "git add -A "
     ]
   },
   "devDependencies": {
