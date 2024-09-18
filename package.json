@@ -1,0 +1,27 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "scripts": {
+    "minify": "node minify.js",
+    "postinstall": "npm i -g terser"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.js": [
+      "npm run minify",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "glob": "^11.0.0",
+    "terser": "^5.7.0"
+  },
+  "dependencies": {
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10"
+  }
+}
