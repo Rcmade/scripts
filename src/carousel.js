@@ -18,3 +18,4 @@ carousels.forEach((carouselWrapper) => {
     carousel?.scrollBy({ left: 300, behavior: "smooth" });
   });
 });
+
