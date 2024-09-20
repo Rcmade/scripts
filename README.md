@@ -66,3 +66,5 @@ Follow these steps to set up the project and configure Husky on your local devel
 
             git add .husky
             git commit -m "Add Husky pre-commit hook"
+
+## <https://cdn.jsdelivr.net/gh/Rcmade/scripts@master/dist/carousel.min.js>
